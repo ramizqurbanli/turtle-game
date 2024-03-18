@@ -53,7 +53,7 @@ screen.onkeypress(move_right, "d")
 # Main game loop
 while True:
     # Check for collision with food
-    if player.distance(food) < 20:
+    if player.distance(food) < 25:
         food.goto(random.randint(-290, 290), random.randint(-290, 290))
 
     screen.update()
