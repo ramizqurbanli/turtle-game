@@ -49,6 +49,7 @@ screen.onkeypress(move_up, "w")
 screen.onkeypress(move_down, "s")
 screen.onkeypress(move_left, "a")
 screen.onkeypress(move_right, "d")
+screen.onkeypress(screen.bye, "q")  # Exit the game when "Q" is pressed
 
 # Main game loop
 while True:
